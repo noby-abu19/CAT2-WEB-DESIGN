@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <scipt type="text/javascript">
+        <var name=prompt("enter the employee name:");
+        <var hours worked=parse float(prompt("hours worked:")); 
+        <var rate per hour=parse float(prompt("rate per hour worked:"));    
+    </scipt>
+    <var basic pay= hours worked*rate per hour;
+    <var tax;
+    if(basic pay>50000){
+        tax= 0.2 * basic pay;
+    } else if( basic pay>=20000 && basic pay<=50000){
+        tax= 0.1* basic pay;
+    } else{
+        tax= 0;
+    }
+    //display the results
+    console.log("employee name: " + employee);
+    console.log("basic pay:$" + basic pay.to fixed(2));
+    console.log("tax:$" + tax.to fixed(2));
+    console.log("net pay:$" + net pay.to fixed(2));
+    
+
+
+    
+    
+
+
+    
+    
+        
+  
